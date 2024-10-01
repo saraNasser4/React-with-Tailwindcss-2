@@ -1,11 +1,13 @@
+import NavBar from './components/NavBar';
+import Landing from './components/LandingCom';
+import Footer from './components/Footer';
 
-
-function App() {
-  return (
-    <div className="App">
-      
+export default function App() {
+  return(
+    <div>
+      <NavBar />
+      <Landing />
+      <Footer />
     </div>
-  );
+  )
 }
-
-export default App;
